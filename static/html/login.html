@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>豆瓣</title>
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="shortcut icon" type="image/x-icon" href="../img/favicon.ico">
+    <script class="" type="text/javascript" src="../js/loginfram.js"></script>
+</head>
+<body>
+    <div class="codedl right"><img src="../img/code.png" alt="" class=""></div>
+    <div class="top clearfix">
+        <!-- 登录方式选择 -->
+        <div class="tab">
+            <button class="tablinks left" onclick="openway(event,'dx')">短信登录/注册</button>
+            <button class="tablinks right" onclick="openway(event,'mm')">密码登录</button>
+        </div>
+    <!-- 短信登录/注册 -->
+        <div id="dx" class="tabcontent clearfix">
+            <p>请仔细阅读<a href="" class="">豆瓣使用协议、豆瓣个人信息保护政策</a></p>
+            <div class="phone">
+                <form action="" class="dxdl">
+                    <input type="text" class="" placeholder="手机号">
+                    <input type="text" placeholder="验证码">
+                    <button  type="button" class="yzm">获取验证码</button>
+                    <button type="submit" name="" id="">登录豆瓣</button>
+                </form>
+            </div>
+            <div class="dq">
+                <form action="" class="">
+                    <select name="" id="" class="">
+                        <option value="">+86</option>
+                    </select>
+                </form>
+            </div>
+            <div class="wrong">
+                <input type="button" class="" value="收不到验证码">
+            </div>
+        </div>
+    <!-- 密码登录 -->
+        <div id="mm" class="tabcontent clearfix">
+            <div class="find clearfix">
+                <a href="" class="">找回密码</a>
+            </div>
+            <div class="password">
+                <form action="" class="">
+                    <input type="text" class="" placeholder="手机号/邮箱">
+                    <input type="text" class="" placeholder="密码">
+                    <button type="submit" class="">登录豆瓣</button>
+                </form>
+            </div>
+            <div class="hw clearfix"><a href="" class="">海外手机登录</a></div>
+    </div>
+    <!-- 第三方登录 -->
+    <div class="bottom">
+        <div class="lin0"></div>
+        <span class="">第三方登录:</span>
+        <a href="" class="iconfont icon-weixin"></a>
+        <a href="" class="iconfont icon-weibo"></a>
+    </div>
+</body>
+</html>

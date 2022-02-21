@@ -1,0 +1,159 @@
+@import"./common.css";
+@import"//at.alicdn.com/t/font_3148933_r3oo2kykhcs.css";
+body{
+    overflow-x: hidden !important;
+}
+.top{
+    width:  300px;
+    height: 300px;
+}
+.codedl img{
+    width: 36px;
+    height: 36px;
+    position: relative;
+    left: 230px;
+}
+.top .tab{
+    overflow: hidden;
+    border-bottom: 1px solid #e4e6e5;
+    width: 100%;
+}
+.top .tab button{
+    border-color: transparent;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+}
+.top .tab button .active{
+    background-color: transparent;
+}
+.top .tab button:hover{
+    background-color: transparent;
+}
+.top .tabcontent{
+    display: none;
+}
+.top .tabcontent p{
+    font-size: 12px;
+    margin: 10px 0;
+    color: #9b9b9b;
+}
+a{
+    color: rgb(0,181,29);
+    text-decoration: none;
+}
+input[type="text"],input[type="password"]{
+    width: 260px;
+    border: 1px solid #e4e6e5;
+    box-sizing: border-box;
+    height: 35px;
+    padding-left: 50px;
+    border-radius: 4px;
+    font-size: 13px;
+    margin: 5px 5px 5px 5px;
+    outline: none;
+}
+.top .tabcontent .phone button{
+    background-color: #34950e;
+    color: #ececec;
+    width: 90%;
+    height: 40px;
+    border-radius: 4px;
+    border-color: transparent;
+    outline: none;
+}
+.top .tabcontent .dq select{
+    border-color: transparent;
+    appearance: none;
+    position: absolute;
+    top: 85px;
+    left: 20px;
+    width: 30px;
+    font-weight: bold;
+}
+.top .tabcontent .phone .yzm{
+    background-color: transparent;
+    border-color: transparent;
+    position: relative;
+    top: -40px;
+    left: 90px;
+    outline: none;
+    cursor: pointer;
+    color: rgb(65,172,82);
+}
+.top .tabcontent .dl button{
+    width: 80%;
+    height: 40px;
+    border-radius: 4px;
+    border-color: transparent;
+    outline: none;
+    background-color: #34950e;
+    color: #ffff;
+}
+.top .tabcontent .wrong input{
+    outline: none;
+    border-color: transparent;
+    background-color: transparent;
+    color: #34950e;
+    font-size: 13px;
+    position: relative;
+    top: 20px;
+    left: 200px;
+}
+.top .tabcontent .find a{
+    font-size: 13px;
+    position: relative;
+    left: 220px;
+    top: 5px;
+    display: block;
+}
+.top .tabcontent .password input{
+    padding-left: 12px;
+    position: relative;
+    top: 10px;
+}
+.top .tabcontent .password button{
+    width: 88%;
+    height: 40px;
+    border-radius: 4px;
+    border-color: transparent;
+    outline: none;
+    position: relative;
+    top: 20px;
+    background-color: #34950e;
+    color: #ececec;
+}
+.top .tabcontent .hw a{
+    font-size: 13px;
+    position: relative;
+    left: 190px;
+    top: 20px;
+}
+.bottom .line0{
+    margin-top: 30px;
+    width: 100%;
+    height: 1px;
+    border-top: 1px solid #e4e6e5;
+    position: relative;
+}
+.bottom{
+    position: absolute;
+    top: 240px;
+}
+.bottom span{
+    font-size: 12px;
+    color: #9b9b9b;
+    position: relative;
+    top: 22px;
+}
+.bottom .iconfont{
+    margin-left: 12px;
+    position: relative;
+    top: 28px;
+}
+.bottom .icon-weixin{
+    color: #34950e;
+}
+.bottom .icon-weibo{
+    color: #ea5d5c;
+}

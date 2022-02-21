@@ -1,0 +1,60 @@
+@import"//at.alicdn.com/t/font_3148933_5lznin4nmh.css";
+.top{
+    width: 100%;
+    height: 25px;
+    background-color: #545652;
+}
+.top ul{
+    list-style-type: none;
+}
+.top ul li{
+    float: left;
+    padding-left: 20px;
+}
+.top a{
+    text-decoration: none;
+    color: #d5d5d5;
+}
+.title{
+    width: 100%;
+    height: 65px;
+    background-color: rgb(237,244,237);
+    position: absolute;
+}
+.title img{
+    padding-left: 270px;
+    padding-top: 16px;
+    width: 155px;
+}
+.title ul{
+    list-style-type: none;
+}
+.title ul li{
+    float: left;
+    padding-left: 30px;
+    position: relative;
+    left: 400px;
+    top: -40px
+}
+.title a{
+    text-decoration: none;
+    color: #008b00;
+}
+.title input{
+    position: relative;
+    left: 680px;
+    top: -40px;
+    border-radius: 4px;
+    width: 280px;
+    height: 25px;
+    padding-left: 8px;
+    outline: none;
+    border: 1px solid #e4e5e6;
+}
+.title button{
+    position:relative;
+    cursor: pointer;
+    position: relative;
+    left: 1320px;
+    top: -68px;
+}

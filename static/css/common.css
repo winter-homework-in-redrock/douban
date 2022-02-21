@@ -1,0 +1,42 @@
+@import "//at.alicdn.com/t/font_3148933_fjovrnbmgu.css";
+/*通用样式*/
+@import"//at.alicdn.com/t/font_3148933_4pddmx2nsj.css";
+body{
+    font-family:  Helvetica, Arial, sans-serif;
+}
+.container{
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}
+.clearfix::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+.button{
+    cursor: pointer;
+}
+.show{
+    display: block;
+}
+.hidden{
+    display: none;
+}
+.btn{
+    background-color: #41ac52;
+    cursor: pointer;
+    color:#fff;
+    text-align: center;
+}
+.btn:disabled{
+    background: rgba(66,189,86,.5);
+    cursor: not-allowed;
+}
+/*通用样式结束*/

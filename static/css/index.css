@@ -1,0 +1,119 @@
+@import "common.css";
+@import "reset.css";
+@import "//at.alicdn.com/t/font_3148933_fjovrnbmgu.css";
+/*页面顶部*/
+body{
+    overflow-x: hidden !important;
+}
+.header{
+    height:90px;
+    padding-top: 0px;
+    box-sizing: border-box;
+}
+.logo{
+    margin-top: -20px;
+    background-color: #EDF4EC;
+}
+.logo a{
+    display: block;
+    background: url("../img/logo_db.png") no-repeat;
+    width: 102px;
+    height: 0px;
+    padding-top: 33px;
+    overflow:hidden;
+    margin-bottom: 20px;
+    margin-left: 8px;
+    position: relative;
+    top:7px;
+}
+.header .mz{
+    display: block;
+    background: url("../img/sitename.png") no-repeat top left/60%; 
+    width: 120px;
+    height: 0px;
+    padding-top: 30px;
+    overflow: hidden;
+}
+.header .search{
+    width: 270px;
+    height:30px;
+    border: 1px solid #c3c3c3;
+    margin-left: -20px;
+    margin-top: -5px;
+    position: relative;
+}
+.header .search .txt{
+    width: 240px;
+    border: none;
+    font-size: 13px;
+    height: 20px;
+    padding: 5px;
+}
+.header .search .txt::placeholder{
+    color:lightgray
+}
+.header .search button{
+    position: absolute;
+    top: 6px;
+    right:6px;
+    cursor: pointer;
+}
+.header .menu{
+    margin-top: 4px;
+}
+.header .menu a{
+    background: url("../img/daohang.png") no-repeat  left top/463px 20px;
+    float: left;
+    width: 40px;
+    height: 20px;
+    margin-left: 20px;
+}
+.header .menu .menu-study{
+    background-position: 0 0 ;
+}
+.header .menu .menu-movie{
+    background-position: -60px 0 ;
+}
+.header .menu .menu-music{
+    background-position: -120px 0 ;
+}
+.header .menu .menu-location{
+    background-position: -300px 0 ;
+}
+.header .menu .menu-group{
+    background-position: -180px 0 ;
+}
+.header .menu .menu-shop{
+    background-position: -360px 0 ;
+}
+    .header .menu .menu-FM{
+    background-position: -240px 0 ;
+}
+.header .menu .menu-DP{
+    background-position: -422px 0 ;
+}
+.middle{
+    background-color: rgb(237,244,237);
+}
+.middle img{
+    width: 50%;
+    height: 300px;
+}
+.middle .tab{
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    left: 950px;
+    top: 110px
+}
+.bottom p{
+    color:#34950e;
+    font-size: 14px;
+    position: relative;
+    left: 180px
+}
+.bottom a{
+    text-decoration: none;
+    color: #37a
+}
+/*页面底部*/
